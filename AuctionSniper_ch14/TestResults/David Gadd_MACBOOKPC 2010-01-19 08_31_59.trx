@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="39f255b7-6d5b-4102-bd03-f3233399931c" name="David Gadd@MACBOOKPC 2010-01-19 08:31:59" runUser="MacBookPC\David Gadd" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="98aa9265-ee77-4bec-92f2-e5615f89e945">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="David Gadd_MACBOOKPC 2010-01-19 08_31_59">
+      <DeploymentItem filename="C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Shared\bin\Debug\AuctionSniper.Shared.dll" />
+      <DeploymentItem filename="C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Domain.dll" />
+      <DeploymentItem filename="C:\3rd_Party_DLLs\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Presenters\bin\Debug\AuctionSniper.Presenters.dll" />
+      <DeploymentItem filename="C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Views\bin\Debug\AuctionSniper.Views.dll" />
+      <DeploymentItem filename="C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Fakes.XMPPServer\bin\Debug\AuctionSniper.Fakes.XMPPServer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-01-19T08:31:59.0110000-08:00" queuing="2010-01-19T08:31:59.1620000-08:00" start="2010-01-19T08:31:59.1870000-08:00" finish="2010-01-19T08:32:00.8390000-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SniperWinsAnAuctionByBiddingHigher" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.acceptance\bin\debug\auctionsniper.tests.acceptance.dll" id="93674639-a3b6-7bf8-74b6-1fd95b052a93">
+      <Execution id="4fc5f1f0-f964-4783-a4cb-4333bbe33d3a" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Acceptance/bin/Debug/AuctionSniper.Tests.Acceptance.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Acceptance.AuctionSniperEndToEndTest, AuctionSniper.Tests.Acceptance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SniperWinsAnAuctionByBiddingHigher" />
+    </UnitTest>
+    <UnitTest name="SniperMakesAHigherBidButLoses" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.acceptance\bin\debug\auctionsniper.tests.acceptance.dll" id="b01b7404-787c-b29e-2f95-668958eae1b9">
+      <Execution id="2b280abd-c424-4895-bc2f-23b0a2349d24" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Acceptance/bin/Debug/AuctionSniper.Tests.Acceptance.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Acceptance.AuctionSniperEndToEndTest, AuctionSniper.Tests.Acceptance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SniperMakesAHigherBidButLoses" />
+    </UnitTest>
+    <UnitTest name="ReportsWonIfAuctionClosesWhenWinning" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="d9fca3e4-583a-e2a3-5b9f-818b78a454f7">
+      <Execution id="76adfb53-939a-4a14-9589-35ffea52d1e1" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionSniperTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsWonIfAuctionClosesWhenWinning" />
+    </UnitTest>
+    <UnitTest name="ReportsLostIfAuctionClosesWhenBidding" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="3b0efb8e-e377-bd8a-bff1-079da82b4f70">
+      <Execution id="0ac9fe6d-386c-42e5-98e7-a153b8be2484" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionSniperTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsLostIfAuctionClosesWhenBidding" />
+    </UnitTest>
+    <UnitTest name="NotifiesAuctionClosedWhenCloseMessageReceived" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="14f7be7d-438a-9046-014a-66d81650fe5b">
+      <Execution id="a81ccec1-4fff-4b0c-bfb9-f507932389e3" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionMessageTranslatorTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotifiesAuctionClosedWhenCloseMessageReceived" />
+    </UnitTest>
+    <UnitTest name="SniperJoinsAuctionUntilAuctionCloses" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.acceptance\bin\debug\auctionsniper.tests.acceptance.dll" id="065a0d2c-709e-ae8c-d96e-b30d6cd739fa">
+      <Execution id="7e15c129-ea7a-4de3-9fce-f7f93dfb97c9" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Acceptance/bin/Debug/AuctionSniper.Tests.Acceptance.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Acceptance.AuctionSniperEndToEndTest, AuctionSniper.Tests.Acceptance, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SniperJoinsAuctionUntilAuctionCloses" />
+    </UnitTest>
+    <UnitTest name="ReportsIsWinningWhenCurrentPriceComesFromSniper" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="6100111a-b8bf-f4a6-11df-9ebb884d82b4">
+      <Execution id="71a6a18b-3874-4f5d-9650-2a11b9f5d883" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionSniperTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsIsWinningWhenCurrentPriceComesFromSniper" />
+    </UnitTest>
+    <UnitTest name="BidsHigherAndReportsBiddingWhenNewPriceArrives" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="d0375629-f444-bfa8-7f20-6e2f539984ba">
+      <Execution id="23458e92-a02d-48d5-a3c4-495eeda13543" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionSniperTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BidsHigherAndReportsBiddingWhenNewPriceArrives" />
+    </UnitTest>
+    <UnitTest name="ReportsLostIfAuctionClosesImmediately" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="c5a42179-fdd1-ee17-2224-491e2a9f65bb">
+      <Execution id="94a345ce-58e4-46e8-9879-7a3a64a151a0" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionSniperTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsLostIfAuctionClosesImmediately" />
+    </UnitTest>
+    <UnitTest name="NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromOtherBidder" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="6b58e78d-f2a5-3d41-f567-0f88e676dacf">
+      <Execution id="4c8fb3d5-0c22-4422-8508-8b093d68aa8e" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionMessageTranslatorTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromOtherBidder" />
+    </UnitTest>
+    <UnitTest name="NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromSniper" storage="c:\sourcecode\dotnet_2010\auctionsniper_ch14\auctionsniper.tests.unit\bin\debug\auctionsniper.tests.unit.dll" id="c62dd472-c1fd-aa01-4263-fd037ae3c140">
+      <Execution id="9b1020ca-2ba0-49be-a6fd-f82e7a784d94" />
+      <TestMethod codeBase="C:/SourceCode/dotNet_2010/AuctionSniper_ch14/AuctionSniper.Tests.Unit/bin/Debug/AuctionSniper.Tests.Unit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AuctionSniper.Tests.Unit.AuctionMessageTranslatorTest, AuctionSniper.Tests.Unit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromSniper" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="065a0d2c-709e-ae8c-d96e-b30d6cd739fa" executionId="7e15c129-ea7a-4de3-9fce-f7f93dfb97c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14f7be7d-438a-9046-014a-66d81650fe5b" executionId="a81ccec1-4fff-4b0c-bfb9-f507932389e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b0efb8e-e377-bd8a-bff1-079da82b4f70" executionId="0ac9fe6d-386c-42e5-98e7-a153b8be2484" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6100111a-b8bf-f4a6-11df-9ebb884d82b4" executionId="71a6a18b-3874-4f5d-9650-2a11b9f5d883" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b58e78d-f2a5-3d41-f567-0f88e676dacf" executionId="4c8fb3d5-0c22-4422-8508-8b093d68aa8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93674639-a3b6-7bf8-74b6-1fd95b052a93" executionId="4fc5f1f0-f964-4783-a4cb-4333bbe33d3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b01b7404-787c-b29e-2f95-668958eae1b9" executionId="2b280abd-c424-4895-bc2f-23b0a2349d24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5a42179-fdd1-ee17-2224-491e2a9f65bb" executionId="94a345ce-58e4-46e8-9879-7a3a64a151a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c62dd472-c1fd-aa01-4263-fd037ae3c140" executionId="9b1020ca-2ba0-49be-a6fd-f82e7a784d94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0375629-f444-bfa8-7f20-6e2f539984ba" executionId="23458e92-a02d-48d5-a3c4-495eeda13543" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9fca3e4-583a-e2a3-5b9f-818b78a454f7" executionId="76adfb53-939a-4a14-9589-35ffea52d1e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7e15c129-ea7a-4de3-9fce-f7f93dfb97c9" testId="065a0d2c-709e-ae8c-d96e-b30d6cd739fa" testName="SniperJoinsAuctionUntilAuctionCloses" computerName="MACBOOKPC" duration="00:00:00.1729942" startTime="2010-01-19T08:31:59.2150000-08:00" endTime="2010-01-19T08:31:59.9510000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e15c129-ea7a-4de3-9fce-f7f93dfb97c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="a81ccec1-4fff-4b0c-bfb9-f507932389e3" testId="14f7be7d-438a-9046-014a-66d81650fe5b" testName="NotifiesAuctionClosedWhenCloseMessageReceived" computerName="MACBOOKPC" duration="00:00:00.1544808" startTime="2010-01-19T08:31:59.9530000-08:00" endTime="2010-01-19T08:32:00.6600000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a81ccec1-4fff-4b0c-bfb9-f507932389e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ac9fe6d-386c-42e5-98e7-a153b8be2484" testId="3b0efb8e-e377-bd8a-bff1-079da82b4f70" testName="ReportsLostIfAuctionClosesWhenBidding" computerName="MACBOOKPC" duration="00:00:00.0520696" startTime="2010-01-19T08:32:00.6620000-08:00" endTime="2010-01-19T08:32:00.7200000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ac9fe6d-386c-42e5-98e7-a153b8be2484">
+    </UnitTestResult>
+    <UnitTestResult executionId="71a6a18b-3874-4f5d-9650-2a11b9f5d883" testId="6100111a-b8bf-f4a6-11df-9ebb884d82b4" testName="ReportsIsWinningWhenCurrentPriceComesFromSniper" computerName="MACBOOKPC" duration="00:00:00.0024334" startTime="2010-01-19T08:32:00.7220000-08:00" endTime="2010-01-19T08:32:00.7280000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71a6a18b-3874-4f5d-9650-2a11b9f5d883">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c8fb3d5-0c22-4422-8508-8b093d68aa8e" testId="6b58e78d-f2a5-3d41-f567-0f88e676dacf" testName="NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromOtherBidder" computerName="MACBOOKPC" duration="00:00:00.0019368" startTime="2010-01-19T08:32:00.7420000-08:00" endTime="2010-01-19T08:32:00.7490000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c8fb3d5-0c22-4422-8508-8b093d68aa8e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4fc5f1f0-f964-4783-a4cb-4333bbe33d3a" testId="93674639-a3b6-7bf8-74b6-1fd95b052a93" testName="SniperWinsAnAuctionByBiddingHigher" computerName="MACBOOKPC" duration="00:00:00.0075554" startTime="2010-01-19T08:32:00.7510000-08:00" endTime="2010-01-19T08:32:00.7620000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fc5f1f0-f964-4783-a4cb-4333bbe33d3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b280abd-c424-4895-bc2f-23b0a2349d24" testId="b01b7404-787c-b29e-2f95-668958eae1b9" testName="SniperMakesAHigherBidButLoses" computerName="MACBOOKPC" duration="00:00:00.0012379" startTime="2010-01-19T08:32:00.7640000-08:00" endTime="2010-01-19T08:32:00.7690000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b280abd-c424-4895-bc2f-23b0a2349d24">
+    </UnitTestResult>
+    <UnitTestResult executionId="94a345ce-58e4-46e8-9879-7a3a64a151a0" testId="c5a42179-fdd1-ee17-2224-491e2a9f65bb" testName="ReportsLostIfAuctionClosesImmediately" computerName="MACBOOKPC" duration="00:00:00.0008035" startTime="2010-01-19T08:32:00.7700000-08:00" endTime="2010-01-19T08:32:00.7800000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94a345ce-58e4-46e8-9879-7a3a64a151a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b1020ca-2ba0-49be-a6fd-f82e7a784d94" testId="c62dd472-c1fd-aa01-4263-fd037ae3c140" testName="NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromSniper" computerName="MACBOOKPC" duration="00:00:00.0007148" startTime="2010-01-19T08:32:00.7830000-08:00" endTime="2010-01-19T08:32:00.7870000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b1020ca-2ba0-49be-a6fd-f82e7a784d94">
+    </UnitTestResult>
+    <UnitTestResult executionId="23458e92-a02d-48d5-a3c4-495eeda13543" testId="d0375629-f444-bfa8-7f20-6e2f539984ba" testName="BidsHigherAndReportsBiddingWhenNewPriceArrives" computerName="MACBOOKPC" duration="00:00:00.0010728" startTime="2010-01-19T08:32:00.7890000-08:00" endTime="2010-01-19T08:32:00.7940000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23458e92-a02d-48d5-a3c4-495eeda13543">
+    </UnitTestResult>
+    <UnitTestResult executionId="76adfb53-939a-4a14-9589-35ffea52d1e1" testId="d9fca3e4-583a-e2a3-5b9f-818b78a454f7" testName="ReportsWonIfAuctionClosesWhenWinning" computerName="MACBOOKPC" duration="00:00:00.0015020" startTime="2010-01-19T08:32:00.7960000-08:00" endTime="2010-01-19T08:32:00.8000000-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76adfb53-939a-4a14-9589-35ffea52d1e1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

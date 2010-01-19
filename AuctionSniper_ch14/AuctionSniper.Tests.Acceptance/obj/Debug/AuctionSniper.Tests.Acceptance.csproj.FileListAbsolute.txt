@@ -1,0 +1,84 @@
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\obj\Debug\ResolveAssemblyReference.cache
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.dll
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.pdb
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.dll
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.pdb
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.dll
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\NMock2.dll
+c:\users\david gadd\documents\visual studio 2010\Projects\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\Rhino.Mocks.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.dll
+C:\SourceCode\dotNet_2010\AuctionSniper\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\Rhino.Mocks.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch11\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\Rhino.Mocks.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Views.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch12\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Views.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Views.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\Rhino.Mocks.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Services.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Views.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.XMPPServer.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch13\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Views.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\Rhino.Mocks.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Presenters.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Shared.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Views.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\obj\Debug\AuctionSniper.Tests.Acceptance.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Fakes.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Fakes.XMPPServer.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Domain.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Tests.Acceptance\bin\Debug\AuctionSniper.Domain.pdb

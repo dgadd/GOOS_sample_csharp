@@ -1,0 +1,5 @@
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Fakes.XMPPServer\bin\Debug\AuctionSniper.Fakes.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Fakes.XMPPServer\bin\Debug\AuctionSniper.Fakes.XMPPServer.pdb
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Fakes.XMPPServer\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Fakes.XMPPServer\obj\Debug\AuctionSniper.Fakes.XMPPServer.dll
+C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Fakes.XMPPServer\obj\Debug\AuctionSniper.Fakes.XMPPServer.pdb
