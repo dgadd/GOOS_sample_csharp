@@ -1,9 +1,0 @@
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\obj\Debug\ResolveAssemblyReference.cache
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Domain.dll
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Domain.pdb
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Fakes.XMPPServer.dll
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Shared.dll
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Fakes.XMPPServer.pdb
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\bin\Debug\AuctionSniper.Shared.pdb
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\obj\Debug\AuctionSniper.Domain.dll
-C:\SourceCode\dotNet_2010\AuctionSniper_ch14\AuctionSniper.Domain\obj\Debug\AuctionSniper.Domain.pdb
