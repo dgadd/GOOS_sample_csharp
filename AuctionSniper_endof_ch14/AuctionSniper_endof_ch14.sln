@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSniper.Domain", "AuctionSniper.Domain\AuctionSniper.Domain.csproj", "{D6D6B0D0-6C9B-4BDC-9216-6F1A76A9FA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSniper.Fakes.WinFormLicker", "AuctionSniper.Fakes.WinFormLicker\AuctionSniper.Fakes.WinFormLicker.csproj", "{0C16CB5F-380B-486D-ACA9-CDF6A1B6ABC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSniper.Fakes.XMPPServer", "AuctionSniper.Fakes.XMPPServer\AuctionSniper.Fakes.XMPPServer.csproj", "{3089AA6A-3B0C-49C2-B96A-A9B9CF0D3A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSniper.UI", "AuctionSniper.UI\AuctionSniper.UI.csproj", "{F72EBDC6-B247-476F-BC75-5B224450230F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSniper.Tests.Acceptance", "AuctionSniper.Tests.Acceptance\AuctionSniper.Tests.Acceptance.csproj", "{590C85FE-84EE-4140-B6DD-6AD7264B9B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionSniper.Tests.Unit", "AuctionSniper.Tests.Unit\AuctionSniper.Tests.Unit.csproj", "{36C6B129-7FC9-4884-A7FD-AA62D1966FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D6B0D0-6C9B-4BDC-9216-6F1A76A9FA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D6B0D0-6C9B-4BDC-9216-6F1A76A9FA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D6B0D0-6C9B-4BDC-9216-6F1A76A9FA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D6B0D0-6C9B-4BDC-9216-6F1A76A9FA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C16CB5F-380B-486D-ACA9-CDF6A1B6ABC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C16CB5F-380B-486D-ACA9-CDF6A1B6ABC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C16CB5F-380B-486D-ACA9-CDF6A1B6ABC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C16CB5F-380B-486D-ACA9-CDF6A1B6ABC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3089AA6A-3B0C-49C2-B96A-A9B9CF0D3A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3089AA6A-3B0C-49C2-B96A-A9B9CF0D3A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3089AA6A-3B0C-49C2-B96A-A9B9CF0D3A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3089AA6A-3B0C-49C2-B96A-A9B9CF0D3A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72EBDC6-B247-476F-BC75-5B224450230F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72EBDC6-B247-476F-BC75-5B224450230F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72EBDC6-B247-476F-BC75-5B224450230F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72EBDC6-B247-476F-BC75-5B224450230F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590C85FE-84EE-4140-B6DD-6AD7264B9B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590C85FE-84EE-4140-B6DD-6AD7264B9B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590C85FE-84EE-4140-B6DD-6AD7264B9B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590C85FE-84EE-4140-B6DD-6AD7264B9B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C6B129-7FC9-4884-A7FD-AA62D1966FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C6B129-7FC9-4884-A7FD-AA62D1966FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C6B129-7FC9-4884-A7FD-AA62D1966FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C6B129-7FC9-4884-A7FD-AA62D1966FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

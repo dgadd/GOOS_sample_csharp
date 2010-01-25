@@ -1,0 +1,11 @@
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\obj\Debug\ResolveAssemblyReference.cache
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.Fakes.WinFormLicker.dll
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.Fakes.WinFormLicker.pdb
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.UI.dll
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.Domain.dll
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.Fakes.XMPPServer.dll
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.UI.pdb
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.Domain.pdb
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\bin\Debug\AuctionSniper.Fakes.XMPPServer.pdb
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\obj\Debug\AuctionSniper.Fakes.WinFormLicker.dll
+C:\SourceCode\dotNet\AuctionSniper_endof_ch14\AuctionSniper.Fakes.WinFormLicker\obj\Debug\AuctionSniper.Fakes.WinFormLicker.pdb
