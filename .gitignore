@@ -1,5 +1,5 @@
 bin
 obj
-*.resharper
+*.resharper.user
 *.suo
 _resharper.*
