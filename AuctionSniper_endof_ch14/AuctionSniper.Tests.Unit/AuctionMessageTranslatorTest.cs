@@ -29,6 +29,8 @@ namespace AuctionSniper.Tests.Unit
             var message = new Message(UNUSED_CHAT) {Body = "SOLVersion: 1.1; Event: CLOSE;"};
             var mlea = new MessageListenerEventArgs(message);
             _translator.InvokeProcessMessage(mlea);
+
+            _mockListener.VerifyAllExpectations();
         }
 
         [Test]
@@ -45,6 +47,8 @@ namespace AuctionSniper.Tests.Unit
                               };
             var mlea = new MessageListenerEventArgs(message);
             _translator.InvokeProcessMessage(mlea);
+
+            _mockListener.VerifyAllExpectations();
         }
 
         [Test]
@@ -59,6 +63,8 @@ namespace AuctionSniper.Tests.Unit
                               };
             var mlea = new MessageListenerEventArgs(message);
             _translator.InvokeProcessMessage(mlea);
+
+            _mockListener.VerifyAllExpectations();
         }
     }
 }

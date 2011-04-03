@@ -37,6 +37,8 @@ namespace AuctionSniper.Tests.Unit
 
             _sniper.CurrentPrice(123, 45, Enums.PriceSource.FromOtherBidder);
             _sniper.AuctionClosed();
+
+            _mockSniperListener.VerifyAllExpectations();
         }
 
         [Test]
@@ -48,6 +50,8 @@ namespace AuctionSniper.Tests.Unit
 
             _sniper.CurrentPrice(123, 45, Enums.PriceSource.FromSniper);
             _sniper.AuctionClosed();
+
+            _mockSniperListener.VerifyAllExpectations();
         }
 
         [Test]
@@ -60,6 +64,8 @@ namespace AuctionSniper.Tests.Unit
             _mockSniperListener.Expect(x => x.SniperBidding()).Repeat.AtLeastOnce();
 
             _sniper.CurrentPrice(PRICE, INCREMENT, Enums.PriceSource.FromOtherBidder);
+
+            _mockSniperListener.VerifyAllExpectations();
         }
 
         [Test]
@@ -71,6 +77,8 @@ namespace AuctionSniper.Tests.Unit
             _mockSniperListener.Expect(x => x.SniperWinning()).Repeat.AtLeastOnce();
 
             _sniper.CurrentPrice(PRICE, INCREMENT, Enums.PriceSource.FromSniper);
+
+            _mockSniperListener.VerifyAllExpectations();
         }
     }
 }
