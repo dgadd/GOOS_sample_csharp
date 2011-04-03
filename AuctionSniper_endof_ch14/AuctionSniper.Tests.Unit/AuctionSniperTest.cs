@@ -10,67 +10,44 @@ namespace AuctionSniper.Tests.Unit
         private IAuction _mockAuction;
         private ISniperListener _mockSniperListener;
 
-        private MockRepository _mocks;
         private Domain.AuctionSniper _sniper;
 
         [SetUp]
         public void TestSetup()
         {
-            _mocks = new MockRepository();
-            _mockAuction = _mocks.StrictMock<IAuction>();
-            _mockSniperListener = _mocks.StrictMock<ISniperListener>();
+            _mockAuction = MockRepository.GenerateStrictMock<IAuction>();
+            _mockSniperListener = MockRepository.GenerateStrictMock<ISniperListener>();
             _sniper = new Domain.AuctionSniper(_mockAuction, _mockSniperListener);
-        }
-
-        [TearDown]
-        public void TestCleanup()
-        {
-            _mocks.ReplayAll();
-            _mocks.VerifyAll();
         }
 
         [Test]
         public void ReportsLostIfAuctionClosesImmediately()
         {
-            _mockSniperListener.SniperLost();
-
-            _mocks.ReplayAll();
+            _mockSniperListener.Expect(x => x.SniperLost());
 
             _sniper.AuctionClosed();
-
-            _mocks.VerifyAll();
         }
 
         [Test]
         public void ReportsLostIfAuctionClosesWhenBidding()
         {
-            _mockAuction.Bid(0);
-            LastCall.IgnoreArguments();
-            _mockSniperListener.SniperBidding();
-            Expect.Call(_mockSniperListener.SniperLost).Repeat.AtLeastOnce();
-
-            _mocks.ReplayAll();
+            _mockAuction.Expect(x => x.Bid(0)).IgnoreArguments();
+            _mockSniperListener.Expect(x => x.SniperBidding());
+            _mockSniperListener.Expect(x => x.SniperLost()).Repeat.AtLeastOnce();
 
             _sniper.CurrentPrice(123, 45, Enums.PriceSource.FromOtherBidder);
             _sniper.AuctionClosed();
-
-            _mocks.VerifyAll();
         }
 
         [Test]
         public void ReportsWonIfAuctionClosesWhenWinning()
         {
-            //_mockAuction.Bid(0);
-            //LastCall.IgnoreArguments();
-            _mockSniperListener.SniperWinning();
-            Expect.Call(_mockSniperListener.SniperWon).Repeat.AtLeastOnce();
-
-            _mocks.ReplayAll();
+            //_mockAuction.Expect(x => x.Bid(0)).IgnoreArguments();
+            _mockSniperListener.Expect(x => x.SniperWinning());
+            _mockSniperListener.Expect(x => x.SniperWon()).Repeat.AtLeastOnce();
 
             _sniper.CurrentPrice(123, 45, Enums.PriceSource.FromSniper);
             _sniper.AuctionClosed();
-
-            _mocks.VerifyAll();
         }
 
         [Test]
@@ -78,14 +55,11 @@ namespace AuctionSniper.Tests.Unit
         {
             const int PRICE = 1000;
             const int INCREMENT = 25;
-            _mockAuction.Bid(PRICE + INCREMENT);
-            Expect.Call(_mockSniperListener.SniperBidding).Repeat.AtLeastOnce();
 
-            _mocks.ReplayAll();
+            _mockAuction.Expect(x => x.Bid(PRICE + INCREMENT));
+            _mockSniperListener.Expect(x => x.SniperBidding()).Repeat.AtLeastOnce();
 
             _sniper.CurrentPrice(PRICE, INCREMENT, Enums.PriceSource.FromOtherBidder);
-
-            _mocks.VerifyAll();
         }
 
         [Test]
@@ -93,13 +67,10 @@ namespace AuctionSniper.Tests.Unit
         {
             const int PRICE = 123;
             const int INCREMENT = 45;
-            Expect.Call(_mockSniperListener.SniperWinning).Repeat.AtLeastOnce();
 
-            _mocks.ReplayAll();
+            _mockSniperListener.Expect(x => x.SniperWinning()).Repeat.AtLeastOnce();
 
             _sniper.CurrentPrice(PRICE, INCREMENT, Enums.PriceSource.FromSniper);
-
-            _mocks.VerifyAll();
         }
     }
 }
