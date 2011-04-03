@@ -1,0 +1,5 @@
+bin
+obj
+*.resharper
+*.suo
+_resharper.*
