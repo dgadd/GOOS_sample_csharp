@@ -7,7 +7,7 @@ namespace AuctionSniper.Tests.Acceptance
     {
         public const string SNIPER_ID = "sniper";
         public const string SNIPER_XMPP_ID = "sniper@macbookpc/Auction";
-        public readonly string SNIPER_PASSWORD = "sniper";
+        public const string SNIPER_PASSWORD = "sniper";
         private AuctionSniperDriver _driver;
 
         public void StartBiddingIn(FakeAuctionServer auction)
