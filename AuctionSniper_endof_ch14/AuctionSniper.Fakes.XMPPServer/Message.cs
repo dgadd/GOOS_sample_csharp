@@ -2,10 +2,6 @@
 {
     public class Message
     {
-        private Message()
-        {
-        }
-
         public Message(Chat chat)
         {
             Chat = chat;
