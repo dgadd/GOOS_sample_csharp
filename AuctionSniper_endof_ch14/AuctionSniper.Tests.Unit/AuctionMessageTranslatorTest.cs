@@ -12,42 +12,31 @@ namespace AuctionSniper.Tests.Unit
         public const Chat UNUSED_CHAT = null;
         private IAuctionEventListener _mockListener;
 
-        private MockRepository _mocks;
         private AuctionMessageTranslator _translator;
 
         [SetUp]
         public void TestSetup()
         {
-            _mocks = new MockRepository();
-            _mockListener = _mocks.StrictMock<IAuctionEventListener>();
+            _mockListener = MockRepository.GenerateStrictMock<IAuctionEventListener>();
             _translator = new AuctionMessageTranslator(SNIPER_ID, _mockListener);
-        }
-
-        [TearDown]
-        public void TestCleanup()
-        {
-            _mocks.ReplayAll();
-            _mocks.VerifyAll();
         }
 
         [Test]
         public void NotifiesAuctionClosedWhenCloseMessageReceived()
         {
-            _mockListener.AuctionClosed();
-
-            _mocks.ReplayAll();
+            _mockListener.Expect(x => x.AuctionClosed());
 
             var message = new Message(UNUSED_CHAT) {Body = "SOLVersion: 1.1; Event: CLOSE;"};
             var mlea = new MessageListenerEventArgs(message);
             _translator.InvokeProcessMessage(mlea);
+
+            _mockListener.VerifyAllExpectations();
         }
 
         [Test]
         public void NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromSniper()
         {
-            _mockListener.CurrentPrice(234, 5, Enums.PriceSource.FromSniper);
-
-            _mocks.ReplayAll();
+            _mockListener.Expect(x => x.CurrentPrice(234, 5, Enums.PriceSource.FromSniper));
 
             var message = new Message(UNUSED_CHAT)
                               {
@@ -58,14 +47,14 @@ namespace AuctionSniper.Tests.Unit
                               };
             var mlea = new MessageListenerEventArgs(message);
             _translator.InvokeProcessMessage(mlea);
+
+            _mockListener.VerifyAllExpectations();
         }
 
         [Test]
         public void NotifiesBidDetailsWhenCurrentPriceMessageReceivedFromOtherBidder()
         {
-            _mockListener.CurrentPrice(192, 7, Enums.PriceSource.FromOtherBidder);
-
-            _mocks.ReplayAll();
+            _mockListener.Expect(x => x.CurrentPrice(192, 7, Enums.PriceSource.FromOtherBidder));
 
             var message = new Message(UNUSED_CHAT)
                               {
@@ -74,6 +63,8 @@ namespace AuctionSniper.Tests.Unit
                               };
             var mlea = new MessageListenerEventArgs(message);
             _translator.InvokeProcessMessage(mlea);
+
+            _mockListener.VerifyAllExpectations();
         }
     }
 }
